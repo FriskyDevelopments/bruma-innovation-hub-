@@ -1,0 +1,19 @@
+{
+  "name": "bruma-innovation-hub",
+  "version": "1.0.0",
+  "description": "Bruma Labs Innovation Hub — Notion-as-code spec, generator, and validator",
+  "type": "module",
+  "scripts": {
+    "build:hub": "tsx scripts/build.ts",
+    "verify": "tsx scripts/verify.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

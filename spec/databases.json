@@ -1,0 +1,157 @@
+{
+  "research": {
+    "title": "Research library",
+    "description": "Articles, talks, tools and notes the lab actually uses.",
+    "is_inline": true,
+    "properties": {
+      "Title": {
+        "title": {}
+      },
+      "Type": {
+        "select": {
+          "options": [
+            { "name": "Article", "color": "blue" },
+            { "name": "Paper", "color": "purple" },
+            { "name": "Talk", "color": "orange" },
+            { "name": "Template", "color": "green" },
+            { "name": "Tool", "color": "yellow" },
+            { "name": "Note", "color": "gray" }
+          ]
+        }
+      },
+      "URL": {
+        "url": {}
+      },
+      "Tags": {
+        "multi_select": {
+          "options": [
+            { "name": "Product", "color": "blue" },
+            { "name": "Research", "color": "purple" },
+            { "name": "Process", "color": "gray" },
+            { "name": "Template", "color": "green" },
+            { "name": "Experience", "color": "pink" }
+          ]
+        }
+      }
+    }
+  },
+  "experiments": {
+    "title": "Experiments",
+    "description": "One hypothesis, a start and end date, and a result you can stand behind.",
+    "is_inline": true,
+    "properties": {
+      "Name": {
+        "title": {}
+      },
+      "Hypothesis": {
+        "rich_text": {}
+      },
+      "Status": {
+        "select": {
+          "options": [
+            { "name": "Planned", "color": "gray" },
+            { "name": "Running", "color": "blue" },
+            { "name": "Complete", "color": "green" },
+            { "name": "Stopped", "color": "red" }
+          ]
+        }
+      },
+      "Start": {
+        "date": {}
+      },
+      "End": {
+        "date": {}
+      },
+      "Result": {
+        "select": {
+          "options": [
+            { "name": "Pending", "color": "gray" },
+            { "name": "Confirmed", "color": "green" },
+            { "name": "Refuted", "color": "red" },
+            { "name": "Inconclusive", "color": "yellow" }
+          ]
+        }
+      },
+      "Learnings": {
+        "rich_text": {}
+      }
+    }
+  },
+  "ideas": {
+    "title": "Ideas pipeline",
+    "description": "Capture, score and move sparks from first note to shipped or parked.",
+    "is_inline": true,
+    "properties": {
+      "Idea": {
+        "title": {}
+      },
+      "Stage": {
+        "select": {
+          "options": [
+            { "name": "Spark", "color": "yellow" },
+            { "name": "Explore", "color": "blue" },
+            { "name": "Validate", "color": "purple" },
+            { "name": "Build", "color": "orange" },
+            { "name": "Shipped", "color": "green" },
+            { "name": "Parked", "color": "gray" }
+          ]
+        }
+      },
+      "Owner": {
+        "people": {}
+      },
+      "Impact": {
+        "select": {
+          "options": [
+            { "name": "High", "color": "green" },
+            { "name": "Medium", "color": "yellow" },
+            { "name": "Low", "color": "gray" }
+          ]
+        }
+      },
+      "Effort": {
+        "select": {
+          "options": [
+            { "name": "High", "color": "red" },
+            { "name": "Medium", "color": "yellow" },
+            { "name": "Low", "color": "green" }
+          ]
+        }
+      },
+      "Tags": {
+        "multi_select": {
+          "options": [
+            { "name": "Product", "color": "blue" },
+            { "name": "Research", "color": "purple" },
+            { "name": "Process", "color": "gray" },
+            { "name": "Template", "color": "green" },
+            { "name": "Experience", "color": "pink" }
+          ]
+        }
+      },
+      "Created": {
+        "created_time": {}
+      }
+    },
+    "relations": {
+      "Experiments": {
+        "type": "dual_property",
+        "synced_property_name": "Ideas"
+      }
+    },
+    "computed": {
+      "Experiment results": {
+        "rollup": {
+          "relation_property_name": "Experiments",
+          "rollup_property_name": "Result",
+          "function": "show_unique"
+        }
+      },
+      "Score": {
+        "formula": {
+          "expression": "ifs(empty(prop(\"Impact\")) or empty(prop(\"Effort\")), 0, ifs(prop(\"Impact\") == \"High\", 3, prop(\"Impact\") == \"Medium\", 2, 1) / ifs(prop(\"Effort\") == \"High\", 3, prop(\"Effort\") == \"Medium\", 2, 1))"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,616 @@
+{
+  "cover": {
+    "type": "external",
+    "external": {
+      "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=3000&q=85"
+    }
+  },
+  "icon": {
+    "type": "emoji",
+    "emoji": "🧪"
+  },
+  "title": "Bruma Labs Innovation Hub",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": { "content": "B R U M A   ·   L A B S   ·   I N N O V A T I O N" },
+            "annotations": { "color": "gray" }
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": { "content": "From mist to something you can hold." },
+            "annotations": { "italic": true }
+          }
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": { "content": "The lab where sparks are caught, tested in the open, and shipped only when they are cinematic, functional, and verified." },
+            "annotations": { "color": "gray" }
+          }
+        ]
+      }
+    },
+    {
+      "type": "callout",
+      "callout": {
+        "icon": { "type": "emoji", "emoji": "🌫️" },
+        "color": "blue_background",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": { "content": "Mission" },
+            "annotations": { "bold": true }
+          }
+        ],
+        "children": [
+          {
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": { "content": "Turn raw curiosity into work you can live in. Every idea in this hub earns a stage, a score, and a fair experiment before it leaves the mist." }
+                }
+              ]
+            }
+          },
+          {
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                {
+                  "type": "text",
+                  "text": { "content": "Where Notion turns cinematic" },
+                  "annotations": { "italic": true }
+                },
+                {
+                  "type": "text",
+                  "text": { "content": " — and where ideas earn their way into the world." }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": { "content": "Navigate" }
+          }
+        ]
+      }
+    },
+    {
+      "type": "column_list",
+      "column_list": {
+        "children": [
+          {
+            "type": "column",
+            "column": {
+              "children": [
+                {
+                  "type": "callout",
+                  "callout": {
+                    "icon": { "type": "emoji", "emoji": "💡" },
+                    "color": "gray_background",
+                    "rich_text": [{ "type": "text", "text": { "content": "Ideas pipeline" }, "annotations": { "bold": true } }],
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "paragraph": {
+                          "rich_text": [{ "type": "text", "text": { "content": "Capture and score sparks as they appear." }, "annotations": { "color": "gray" } }]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "column",
+            "column": {
+              "children": [
+                {
+                  "type": "callout",
+                  "callout": {
+                    "icon": { "type": "emoji", "emoji": "🔬" },
+                    "color": "gray_background",
+                    "rich_text": [{ "type": "text", "text": { "content": "Experiments" }, "annotations": { "bold": true } }],
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "paragraph": {
+                          "rich_text": [{ "type": "text", "text": { "content": "Test a hypothesis with a clear end date." }, "annotations": { "color": "gray" } }]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "column",
+            "column": {
+              "children": [
+                {
+                  "type": "callout",
+                  "callout": {
+                    "icon": { "type": "emoji", "emoji": "📚" },
+                    "color": "gray_background",
+                    "rich_text": [{ "type": "text", "text": { "content": "Research library" }, "annotations": { "bold": true } }],
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "paragraph": {
+                          "rich_text": [{ "type": "text", "text": { "content": "Notes, links and references for the lab." }, "annotations": { "color": "gray" } }]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "column",
+            "column": {
+              "children": [
+                {
+                  "type": "callout",
+                  "callout": {
+                    "icon": { "type": "emoji", "emoji": "✨" },
+                    "color": "gray_background",
+                    "rich_text": [{ "type": "text", "text": { "content": "Submit an idea" }, "annotations": { "bold": true } }],
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "paragraph": {
+                          "rich_text": [{ "type": "text", "text": { "content": "Add a Spark below. Score it. Let the ritual do the rest." }, "annotations": { "color": "gray" } }]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "Innovation principles" } }]
+      }
+    },
+    {
+      "type": "column_list",
+      "column_list": {
+        "children": [
+          {
+            "type": "column",
+            "column": {
+              "children": [
+                {
+                  "type": "callout",
+                  "callout": {
+                    "icon": { "type": "emoji", "emoji": "🌫️" },
+                    "color": "gray_background",
+                    "rich_text": [{ "type": "text", "text": { "content": "01 — Catch the spark" }, "annotations": { "bold": true } }],
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "paragraph": {
+                          "rich_text": [{ "type": "text", "text": { "content": "Write it down before it fades. A rough spark in the pipeline is worth more than a perfect idea that never lands." } }]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "column",
+            "column": {
+              "children": [
+                {
+                  "type": "callout",
+                  "callout": {
+                    "icon": { "type": "emoji", "emoji": "📊" },
+                    "color": "blue_background",
+                    "rich_text": [{ "type": "text", "text": { "content": "02 — Score with honesty" }, "annotations": { "bold": true } }],
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "paragraph": {
+                          "rich_text": [{ "type": "text", "text": { "content": "Impact over volume. Effort over optimism. The score is a compass, not a verdict." } }]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "column",
+            "column": {
+              "children": [
+                {
+                  "type": "callout",
+                  "callout": {
+                    "icon": { "type": "emoji", "emoji": "🔬" },
+                    "color": "blue_background",
+                    "rich_text": [{ "type": "text", "text": { "content": "03 — Test in the open" }, "annotations": { "bold": true } }],
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "paragraph": {
+                          "rich_text": [{ "type": "text", "text": { "content": "Every idea that moves forward gets one hypothesis, one measure, and an end date." } }]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "column",
+            "column": {
+              "children": [
+                {
+                  "type": "callout",
+                  "callout": {
+                    "icon": { "type": "emoji", "emoji": "✅" },
+                    "color": "green_background",
+                    "rich_text": [{ "type": "text", "text": { "content": "04 — Ship or park" }, "annotations": { "bold": true } }],
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "paragraph": {
+                          "rich_text": [{ "type": "text", "text": { "content": "Beauty that breaks is not beauty. Verified work ships. The rest is parked without guilt, ready for another pass." } }]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "How it works" }, "annotations": { "italic": true } }],
+        "is_toggleable": true,
+        "children": [
+          {
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [{ "type": "text", "text": { "content": "A spark does not become a product by sitting still. It moves through six stages, and each stage has a job." } }]
+            }
+          },
+          {
+            "type": "numbered_list_item",
+            "numbered_list_item": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "Spark" }, "annotations": { "bold": true } },
+                { "type": "text", "text": { "content": " — Capture the idea in one sentence. Tag it. Leave the rest unfinished." } }
+              ]
+            }
+          },
+          {
+            "type": "numbered_list_item",
+            "numbered_list_item": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "Explore" }, "annotations": { "bold": true } },
+                { "type": "text", "text": { "content": " — Read, sketch, and attach research. Decide if it is worth a real test." } }
+              ]
+            }
+          },
+          {
+            "type": "numbered_list_item",
+            "numbered_list_item": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "Validate" }, "annotations": { "bold": true } },
+                { "type": "text", "text": { "content": " — Write a hypothesis and open an experiment with a start and end date." } }
+              ]
+            }
+          },
+          {
+            "type": "numbered_list_item",
+            "numbered_list_item": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "Build" }, "annotations": { "bold": true } },
+                { "type": "text", "text": { "content": " — Run the experiment. Keep learnings in the same row, not in a side chat." } }
+              ]
+            }
+          },
+          {
+            "type": "numbered_list_item",
+            "numbered_list_item": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "Shipped" }, "annotations": { "bold": true } },
+                { "type": "text", "text": { "content": " — The result is confirmed and the work can live outside the lab." } }
+              ]
+            }
+          },
+          {
+            "type": "numbered_list_item",
+            "numbered_list_item": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "Parked" }, "annotations": { "bold": true } },
+                { "type": "text", "text": { "content": " — The idea is paused on purpose. It stays searchable, not forgotten." } }
+              ]
+            }
+          },
+          {
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [{ "type": "text", "text": { "content": "Score is Impact ÷ Effort. High impact and low effort rises first. Low impact and high effort waits." } }]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "Playbooks" }, "annotations": { "italic": true } }],
+        "is_toggleable": true,
+        "children": [
+          {
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [{ "type": "text", "text": { "content": "Scoring a spark" }, "annotations": { "bold": true } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Impact is the change this idea would make if it worked: High, Medium, or Low." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Effort is the time, focus and risk to find out: High, Medium, or Low." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Use the Score column to compare, not to argue. If two ideas tie, pick the one you can test this week." } }]
+            }
+          },
+          {
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [{ "type": "text", "text": { "content": "Designing an experiment" }, "annotations": { "bold": true } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "One hypothesis, written as a complete sentence." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "One primary measure of success." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "A start date and an end date before the work begins." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "A Result of Confirmed, Refuted, Inconclusive, or Pending — never a vague maybe." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Learnings written while they are still fresh, even if the experiment is parked." } }]
+            }
+          },
+          {
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [{ "type": "text", "text": { "content": "Closing the loop" }, "annotations": { "bold": true } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Link every experiment back to its idea." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Move the idea to Shipped only after a confirmed result, or to Parked if the test says wait." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "File useful sources in the Research library so the next pass starts warmer." } }]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [{ "type": "text", "text": { "content": "Rituals" }, "annotations": { "italic": true } }],
+        "is_toggleable": true,
+        "children": [
+          {
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [{ "type": "text", "text": { "content": "Weekly spark review" }, "annotations": { "bold": true } }]
+            }
+          },
+          {
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [{ "type": "text", "text": { "content": "A short, standing review of new and aging ideas." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Read every Spark added since the last review." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Set Owner, Impact, Effort and Tags so the score can do its job." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Promote the best into Explore or Validate. Park anything that is not timely." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Check Experiments that are still Running and confirm they still have an end date." } }]
+            }
+          },
+          {
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [{ "type": "text", "text": { "content": "Monthly demo day" }, "annotations": { "bold": true } }]
+            }
+          },
+          {
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [{ "type": "text", "text": { "content": "A calm showcase, not a performance review." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Each experiment gets a few minutes: hypothesis, result, and the next step." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Celebrate confirmed results and useful refutations equally — both clear the mist." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Decide what ships, what iterates, and what returns to Parked." } }]
+            }
+          },
+          {
+            "type": "bulleted_list_item",
+            "bulleted_list_item": {
+              "rich_text": [{ "type": "text", "text": { "content": "Capture leftover sparks so they enter the pipeline instead of the chat scroll." } }]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "divider",
+      "divider": {}
+    },
+    {
+      "type": "callout",
+      "callout": {
+        "icon": { "type": "emoji", "emoji": "✨" },
+        "color": "green_background",
+        "rich_text": [{ "type": "text", "text": { "content": "Submit an idea" }, "annotations": { "bold": true } }],
+        "children": [
+          {
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "Add a row to Ideas pipeline. Set Stage to " } },
+                { "type": "text", "text": { "content": "Spark" }, "annotations": { "bold": true } },
+                { "type": "text", "text": { "content": ". Write the idea in one sentence, add tags, and estimate Impact and Effort. Owner can wait until the weekly spark review." } }
+              ]
+            }
+          },
+          {
+            "type": "paragraph",
+            "paragraph": {
+              "rich_text": [
+                { "type": "text", "text": { "content": "If you already have a source, drop it in Research library and come back to link it in the review." } }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": []
+      }
+    },
+    {
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          { "type": "text", "text": { "content": "Made in the mist · Bruma Labs" }, "annotations": { "color": "gray" } }
+        ]
+      }
+    }
+  ]
+}

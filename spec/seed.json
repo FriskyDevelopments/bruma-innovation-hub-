@@ -1,0 +1,104 @@
+{
+  "research": [
+    {
+      "Title": "Hypothesis-driven development",
+      "Type": "Article",
+      "URL": "https://thoughtbot.com/blog/how-to-use-hypothesis-driven-development",
+      "Tags": ["Research", "Process"]
+    },
+    {
+      "Title": "Discovery research methods",
+      "Type": "Article",
+      "URL": "https://www.nngroup.com/articles/discovery-research/",
+      "Tags": ["Research", "Process"]
+    },
+    {
+      "Title": "Fog and mist reference photographs",
+      "Type": "Tool",
+      "URL": "https://unsplash.com/s/photos/fog",
+      "Tags": ["Experience", "Template"]
+    },
+    {
+      "Title": "Notion databases guide",
+      "Type": "Tool",
+      "URL": "https://www.notion.com/help/guides/category/databases",
+      "Tags": ["Product", "Process"]
+    }
+  ],
+  "ideas": [
+    {
+      "key": "idea-1",
+      "Idea": "Template verification checklist",
+      "Stage": "Validate",
+      "Impact": "High",
+      "Effort": "Low",
+      "Tags": ["Process", "Template"]
+    },
+    {
+      "key": "idea-2",
+      "Idea": "Cinematic cover library",
+      "Stage": "Spark",
+      "Impact": "Medium",
+      "Effort": "Low",
+      "Tags": ["Template", "Experience"]
+    },
+    {
+      "key": "idea-3",
+      "Idea": "Fog-to-focus morning briefing",
+      "Stage": "Explore",
+      "Impact": "High",
+      "Effort": "Medium",
+      "Tags": ["Product", "Experience"]
+    },
+    {
+      "key": "idea-4",
+      "Idea": "Quiet hours for deep-work pages",
+      "Stage": "Parked",
+      "Impact": "Low",
+      "Effort": "High",
+      "Tags": ["Product", "Experience"]
+    }
+  ],
+  "experiments": [
+    {
+      "ideaKey": "idea-1",
+      "Name": "Checklist catches broken toggles",
+      "Hypothesis": "A short verification checklist will catch empty toggles, broken links and missing views before a template is marked ready.",
+      "Status": "Complete",
+      "Result": "Confirmed",
+      "Start": "2026-11-03",
+      "End": "2026-11-21",
+      "Learnings": "The checklist caught two empty toggles and a board with no grouping in the first trial. It now runs before any template leaves the lab."
+    },
+    {
+      "ideaKey": "idea-2",
+      "Name": "Cover set speeds first setup",
+      "Hypothesis": "A small library of mist and landscape covers will cut first-page setup time compared with searching from scratch.",
+      "Status": "Planned",
+      "Result": "Pending",
+      "Start": "2026-12-01",
+      "End": "2026-12-14",
+      "Learnings": "Test begins once the first set of twelve covers is selected."
+    },
+    {
+      "ideaKey": "idea-3",
+      "Name": "Briefing in five minutes",
+      "Hypothesis": "A one-screen morning briefing can be read in under five minutes and still leave a clear first action.",
+      "Status": "Running",
+      "Result": "Pending",
+      "Start": "2026-11-18",
+      "End": "2026-12-02",
+      "Learnings": "Early drafts were too long. The next pass keeps only three signals and one recommended action."
+    },
+    {
+      "ideaKey": "idea-4",
+      "Name": "Quiet hours demand test",
+      "Hypothesis": "People will use a quiet-hours toggle on deep-work pages at least twice a week if it is one click away.",
+      "Status": "Stopped",
+      "Result": "Inconclusive",
+      "Start": "2026-10-20",
+      "End": "2026-11-10",
+      "Learnings": "Usage was too low to judge. The idea is parked until there is a clearer moment to test again."
+    }
+  ]
+}
